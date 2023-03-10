@@ -21,10 +21,10 @@ document.write("phone : ", phone);
 //----------------------------------------------------------//
 
 // -------------- URL / DATA ZONE --------------//
-const data = { username: `+88${phone}` };
+const data = "API DATA";
 //----------------------------------------------//
 //---------------REQUESTS ZONE------------------//
-fetch("https://api.eat-z.com/auth/customer/signin", {
+fetch("API URL", {
   method: "POST", // or 'PUT'
   headers: {
     "Content-Type": "application/json",
